@@ -1,0 +1,45 @@
+main {
+    padding: 170px 0px 0px 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: var(--color4);
+}
+#galeria{
+    padding-top: 20px;
+    background: var(--color6);
+}
+h2{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+#container{
+    width:70%;
+    padding-bottom: 50px;
+    margin: 0px auto;
+}
+.tp-title,
+.tp-title span{
+    background: var(--color4) !important;
+    color: var(--color1) !important;
+    font-family: var(--font1) !important;
+}
+.shape_galery{
+    overflow:hidden;
+    position:relative;
+}
+.shape_galery::before{ 
+    content:'';
+    font-family:'shape divider from ShapeDividers.com';
+    position: absolute;
+    z-index: 3;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    bottom: -0.1vw;
+    left: -0.1vw;
+    right: -0.1vw;
+    top: -2vw; 
+    background-size: 400% 65px;
+    background-position: 50% 0%;  background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 381 59.27" preserveAspectRatio="none"><g fill="%231f1e1e"><path d="M381 8.47L0 42.33V0h381z"/><path d="M381 33.87L0 59.27V0h381z" opacity=".66"/></g></svg>'); 
+}   

@@ -1,0 +1,226 @@
+/* sm applies to x-small devices (portrait phones, less than 576px)*/
+@media (min-width: 575.98px){
+}
+
+/* md applies to small devices (landscape phones, less than 768px)*/
+@media (min-width: 767.98px) {
+    #splash_div{
+        width: 30%;
+    }
+    #splash_title{
+        font-size: 1.4rem;
+        width: 350px;
+        top: -180px;
+        left: -30px;
+    }
+    h1{
+        font-size: 2.1rem;
+        color: var(--color1);
+        text-shadow: 1px 1px 1px black;
+        margin-left: 50px;
+    }
+    #social i{
+        font-size: 3rem;
+    }
+    #first{
+        height: 100vh;
+        align-items: end;
+        flex-direction: row;
+    }
+    #social{
+        width: 20%;
+        height: 80%;
+        flex-direction: column;
+    }
+    #first,
+    #first video{
+        height: 100vh;
+    }
+    #title{
+        display: flex;
+        width: 80%;
+        height: 65%;
+        padding: 40px;
+        align-items: start;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    #second_info_1 {
+        width: 70%;
+        height: 100%;
+        margin: 0px auto;
+    }
+    #second_info_2 p{
+        display: block !important;
+    }
+    .icons{
+        width: 25%;
+    }
+    .icons i {
+        width: 20%;
+    }
+    #second_icons {
+        height: 20%;
+    }
+    #second{
+        height: 85vh;
+    }
+    #second_info{
+        height: 70%;
+    }
+    .shape_third::before{ 
+        top: -27vw; 
+    }
+    .main-carousel{
+        height: 25vh;
+    }
+    .carousel-cell {
+        height: 90%;
+        width: 40%;
+    }
+    .cell{
+        width: 70%;
+    }
+    #fourth{
+        height: 31vh;
+    }  
+    #sixth{
+        height: 55vh;
+    }
+    .sixth_2{
+        flex-direction: row;
+    }
+    .sixth_3{
+        width: 50%;
+    }
+    #seventh_1{
+        flex-direction: row;
+    }
+    .seventh_2{
+        height: 80%;
+        width: 35%;
+    }
+    .seventh_2 p{
+        padding-left: 0px;
+    }
+    #seventh{
+        height: 60vh;
+    }
+    #rotate_shop{
+        margin-top: 3%;
+    }
+    #shop{
+        height: 30vh;
+        width: 30vh;
+    }
+    #shop_1{
+        width: 25vh;
+        height: 25vh;
+    }
+}
+
+/* lg applies to medium devices (tablets, less than 992px)*/
+@media (min-width: 991.98px) { 
+    #splash_div{
+        width: 15%;
+    }
+    #splash_title{
+        font-size: 1.4rem;
+        width: 350px;
+        top: -160px;
+        left: -40px;
+    }
+    h1{
+        font-size: 3rem;
+        color: var(--color1);
+        text-shadow: 1px 1px 1px black;
+        margin-left: 50px;
+    }
+    #social i{
+        font-size: 2.2rem;
+    }
+    #second_info{
+        flex-direction: row;
+        padding-bottom: 0px !important;
+    }
+    #second_title{
+        padding: 20px;
+    }
+    #second_info{
+        height: 65%;
+        margin-top: 20px;
+    }
+    #second_info_1{
+        width: 30%;
+        height: 90%;
+    }
+    #second_info_2{
+        width: 50%;
+        height: 70%;
+
+    }
+    #second_icons{
+        width: 80%;
+        margin: 0px auto;
+        height: 15%;
+    }
+    .icons{
+        width: 21%;
+    }
+    .icons i {
+        width: 15%;
+    }
+    .shape_third::before{ 
+        top: -15vw; 
+    }
+    .carousel-cell{
+        height: 100%;
+        width: 25%;
+    }
+    .cell{
+        width: 60%;
+    }
+    #fourth{
+        height: 40vh;
+    } 
+    .main-carousel{
+        height: 30vh;
+    }
+    #sixth{
+        flex-direction: row;
+    } 
+    .sixth_1{
+        width: 50%;
+    }
+    #seventh{
+        height: 75vh;
+    }
+    #shop{
+        height: 45vh;
+        width: 45vh;
+    }
+    #shop_1{
+        width: 35vh;
+        height: 35vh;
+    }
+}
+
+/* xl applies to large devices (desktops, less than 1200px)*/
+@media (min-width: 1199.98px) { 
+
+}
+
+/* xx` applies to x-large devices (large desktops, less than 1400px)*/
+@media (min-width: 1600px) { 
+    #splash_title{
+        top: -200px;
+        left: -15px;
+    }
+}
+
+@media (min-width:2100px){
+    .shape_third::before{
+        background-size: 100% calc(2vw + 400px);
+    }
+}

@@ -1,0 +1,74 @@
+/* sm applies to x-small devices (portrait phones, less than 576px)*/
+@media (min-width: 575.98px){
+}
+
+/* md applies to small devices (landscape phones, less than 768px)*/
+@media (min-width: 767.98px) {
+    #confirm{
+        height: auto;
+    }
+    #confirm section{
+        height: 80%;
+    }
+    #confirm_1{
+        padding-left: 20px;
+    }
+    .card{
+        padding: 10px 16px;
+    }
+
+}
+
+/* lg applies to medium devices (tablets, less than 992px)*/
+@media (min-width: 991.98px) { 
+    #confirm_1{
+        width: 25%;
+        position: static;
+    }
+    .card{
+        width: 25vh;
+        height: 25vh;
+    }
+    #confirm section{
+        height: 75%;
+    }
+    #menu_iso{
+        position: relative;
+    
+    }
+    .card{
+        padding: 10px;
+    }
+    #confirm_1{
+        align-items: center;
+        z-index: 1;
+    }
+    #right{
+        display: none;
+    }
+    #gender{
+        text-align:start;
+    }
+    #menu_iso{
+        width: 200px;
+    }
+}
+
+/* xl applies to large devices (desktops, less than 1200px)*/
+@media (min-width: 1199.98px) { 
+
+}
+
+/* xx` applies to x-large devices (large desktops, less than 1400px)*/
+@media (min-width: 1399.98px) { 
+
+}
+
+@media (min-width:2100px){
+    .shape_main::before{
+    background-size: 400% calc(2vw + 200px);
+    }
+    .shape_no_confirm::before{
+        background-size: 400% calc(2vw + 65px);
+    }
+}
