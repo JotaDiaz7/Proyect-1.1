@@ -90,7 +90,7 @@
             </nav>
         </section>
     </header>
-    <main class="shape_main">
+    <main class="shape_band">
         <section class="shape_foot">
             <img src="../media/bandas/<?php echo $datos['img']; ?>" alt="">
         </section>
